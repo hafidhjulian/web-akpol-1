@@ -535,7 +535,7 @@ body{
   transition: .5s ease;
 }*/
 
-@media(max-width: 300px){
+@media(max-width: 600px){
   /*Background video*/
   .backvid{
     display: none;
@@ -620,8 +620,14 @@ body{
   width: 300px;
   height: 200px;
   }
-
-
+  .gub1#struktur {
+    background-color: white;
+    margin-top: 0px;
+    padding: 138px;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
   #judstruk{
     font-size: 25px;
     margin-left: -58px;
@@ -637,15 +643,17 @@ body{
     height: 2000px;
     width: 100%;
   }
-  .gub .card{
+  .gub .card {
     margin-left: -183px;
     width: 300px;
-  }
-  .wagub .card{
+    margin-top: -200px;
+}
+
+  .wagub .card {
     margin-right: -117px;
     width: 300px;
     margin-top: 30px;
-  }
+}
   .showstruk{
     margin-top: 1450px;
     margin-left: -90px;
@@ -691,4 +699,27 @@ body{
   .fa.fa-bars {
     color: white;
   }
+}
+@media(max-width:700px) {
+  #beranda {
+    margin-left: -264px;
+  }
+  .deskripsi {
+    z-index: 2;
+    background: rgba(61,61,61,0.4);
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-family: 'Josefin Sans', cursive;
+    height: 758px;
+    margin-bottom: 0px;
+  }
+  .deskripsi h1 {
+    text-align: center;
+    margin-top: 44px;
+  }
+ 
 }
