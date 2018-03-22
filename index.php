@@ -20,8 +20,6 @@
 		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<link rel="shortcut icon" src="assets/images/logoakpol.png">
-		<!-- <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet">    -->
-		<script src="js/judul.js" type="text/javascript"></script>
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	</head>
 	<body>
@@ -41,13 +39,14 @@
 			<a href="#head" class="tomup"><button id="naik"><strong><i class="fa fa-angle-up"></i></strong></button></a>
 			<!-- Navbar -->
 				<div class="container">
-					<nav class="container-fluid navbar navbar-expand-md fixed-top">
+					<nav class="navbar navbar-expand-md fixed-top nav-container">
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#beranda">
 								<i class="fa fa-bars"></i>
 							</button>
+						<div class="container">
 						<a class="navbar-brand" href="#carhome"><img src="assets/images/logoakpol.png"></a>
 						<div class="collapse navbar-collapse" id="beranda">
-							<ul class=" navbar-nav">
+							<ul class="navbar-nav">
 								<li class="nav-item">
 									<a class="nav-link" href="#visiMisi">Visi & Misi</a>
 								</li>
@@ -145,6 +144,7 @@
 								</li>  -->
 							</ul>
 						</div>
+						</div>
 					</nav>
 			<!-- Foreground -->	
 					<div class="deskripsi">
@@ -160,7 +160,7 @@
 			<!-- Carousel -->
 				<div class="container-fluid" id="carhome">
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-12 col-xl-12 col-lg-12 col-sm-12">
 							<div id="home" class="carousel slide" data-ride="carousel">
 								<ul class="carousel-indicators">
 									<li data-target="#home" data-slide-to="0" class="active"></li>
@@ -170,7 +170,7 @@
 									<li data-target="#home" data-slide-to="4"></li>
 								</ul>
 
-								<div class="carousel-inner">
+								<div class="carousel-inner" id="carimg">
 									<div class="carousel-item active">
 										<img src="assets/images/gubernurakpol.jpg">
 									</div>
