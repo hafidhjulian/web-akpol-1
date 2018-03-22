@@ -1,0 +1,690 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+/*navbar*/
+.navbar-nav {
+  display: flex;
+  flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+
+  .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.navbar-nav {
+    list-style: none;
+    width: -moz-max-content;
+}
+.navbar-text {
+  display: inline-block;
+  padding-top: $nav-link-padding-y;
+  padding-bottom: $nav-link-padding-y;
+}
+.nav-item .nav-link{
+  color: white;
+  vertical-align: center;
+  margin-top: 0px;
+  margin-right: 20px;
+  width: 100%;
+}
+.nav-tabs .nav-justified{
+  color: black;
+}
+.navbar{
+  float: right;
+  margin-top: 0px;
+  background-color: #DD1A1A;
+}
+.nav-item #btnlogin{
+  background-color: #FEEF02;
+  color: #DD1A1A;
+}
+.navbar-toggler{
+  margin-left: 0vh;
+}
+.navbar-brand img{
+  width: 65px;
+  height: 76px;
+  margin-top: 0px;
+  margin-left: 140px;
+}
+.nav2 li{
+  float: right;
+  margin-bottom: 0px;
+}
+.navbar .navbar-nav{
+  margin-left: 330px;
+}
+.nav-tabs{
+  color: black;
+}
+.modal-body .btnlogin {
+    width: 100%;
+    margin-left: 0px;
+}
+/*.signup{
+  border-color: #FFFFFF;
+}
+.signup:hover{
+  background-color: #3D3D3D;
+}*/
+
+
+/*background videos*/
+.backvid #videos{
+	position: relative;
+    right: 0;
+    top: 0;
+    max-width: 100%; 
+    max-height: 1500px;
+    z-index: 1;
+/*    transform: translate (-50%.-50%);*/
+    width: auto;
+    height: auto;
+    bottom: 0px;
+    margin-top: 91px;
+    display: flex;
+    align-item: flex-start;
+    /*opacity: 0.5;*/
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: 0px;
+}
+
+
+/*Deskrpsi header/Foreground */
+.deskripsi{
+	z-index: 2;
+	background: rgba(61,61,61,0.4);
+	position: absolute;
+  color: white;
+	top: 0;
+	left: 0;
+  bottom: 0;
+	right: 0;
+	/*font-family: 'Josefin Sans', cursive;*/
+  height: 758px;
+  margin-bottom: 0px;
+  margin-top: 91px;
+}
+.deskripsi #getbutton{
+  background-color: #FEEF02;
+  color: #DD1A1A;
+}
+.deskripsi #getbutton:hover{
+  opacity: 0.5;
+}
+.deskripsi h1{
+  margin-top: 590px;
+  text-align: center;
+}
+.deskripsi h2{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.deskripsi h1{
+  font-family:'defused';
+  font-size: 75px;
+}
+
+
+/*Carousel Home*/
+
+#home{
+   margin-top: 50px;
+   width: 1580px;
+    height: 755px;
+    margin-bottom: 50px;
+}
+#home img{
+  width: 1650px;
+    height: 755px;
+}
+#carhome{
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  background-color:  #DD1A1A;
+}
+
+
+/*Deskripsi gubernur*/
+.gubernur{
+  padding: 40px;
+  margin-bottom: -50px;
+  margin-top: 10px
+}
+
+.gub1#struktur{
+/*  background-color: white;*/
+  margin-top: 0px;
+  padding: 138px;
+  color: black;
+  height: 1350px;
+  width: 100%;
+  background-color:#00000;
+  /*background: url(bggub.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  /*border-top-left-radius: 700px 200px;
+  border-top-right-radius: 700px 200px;*/
+}
+#struktur{
+  background: url('akpol1.png'), url('akpol1.png');
+  background-position: -200px 10px, 1000px 10px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 600px 650px, 600px 650px;
+}
+
+.gub .card{
+  float: left;
+}
+.wagub .card{
+  float: right;
+}
+.deswagub #butwagub{
+  margin-top: 78px;
+}
+.gub .card{
+  border: 2px ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 400px;
+}
+.wagub .card{
+  border: 2px ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 400px;
+}
+.gub button{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.wagub button{
+  margin-top: 48px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.gub button:hover{
+  background-color: #DD1A1A;
+  color: #FEEF02;
+}
+.wagub button:hover{
+  background-color: #DD1A1A;
+  color: #FEEF02;
+}
+#judstruk{
+  color: white;
+}
+.judpet{
+  margin-top: -30px;
+}
+.judmod{
+  color: black;
+}
+.deskripsigub{
+  color: black;
+}
+.closegub button{
+  margin-top: 10px;
+}
+.strukakademi img{
+  width: 760px;
+  height: 600px;
+}
+.showstruk #butshow{
+    display: flex;
+  justify-content: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+.showstruk{
+  margin-top: 100px;
+}
+.showstruk #butshow{
+  background-color:#ffff00;
+  color: #DD1A1A;
+  border-radius: 20px;
+}
+.showstruk #butshow:hover{
+  opacity: 0.5;
+}
+#struktur{
+  font-family: 'PT Serif', serif;
+}
+
+
+/*Visi Misi*/
+.vimi{
+  background-color: black;
+  padding: 138px;
+  margin-top: 0px;
+   /* The image used */
+    background-image: url("akpol1.png");
+    background-position: 1050px 10px;
+    background-repeat: no-repeat;
+    background-size: 600px 650px;
+}
+#visi1{
+  margin-bottom: 0px;
+}
+#visiMisi #visiakpol{
+  color: white
+}
+#visiMisi #judevent{
+  color: white
+}
+#visiMisi #berita{
+  color: white
+}
+#desevent .card .card-body{
+  color: black;
+}
+#news{
+  width: 700px;
+  height: 200px;
+}
+
+
+/*Galeri*/
+.galeri1{
+  padding: 30px;
+  margin-bottom: 100px;
+  color: white;
+  background: url('akpol1.png');
+  background-position: -200px 10px;
+  background-repeat: no-repeat;
+  background-size: 600px 650px;
+}
+#galeri{
+    background-color: #B3B3B3;
+}
+.galer {
+  margin-top: 10px;
+}
+#judgal{
+  margin-top: 100px;
+}
+.galer img{
+  margin: 10px;
+}
+#tabgal{
+  border: 2px ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  margin-top: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 100px;
+}
+
+/*Youtube*/
+.stream{
+  margin: 10px;
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+/*Instagram*/
+#instagram #instafeed{
+  max-width: 300px;
+  max-height: 200px;
+}
+#instafeed-gallery-feed img{
+  width: 200px;
+  height: 185px;
+  margin: 5px;
+}
+.ig{
+  margin-left: 15px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color: #656666;
+  height: 200px;
+  z-index: 1;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/*Modal*/
+.modal-backdrop .show{
+  opacity: 0;
+}
+.modal-backdrop{
+  z-index: 2;
+}
+
+
+/*Logo Polda*/
+#polda img{
+  margin-left: 10px;
+  margin-left: 10px;
+  width:84px;
+  height:106px;
+}
+#logpolda1{
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#logpolda2{
+  margin-bottom: 20px;
+}
+#logpolda3{
+  margin-bottom: 20px;
+}
+#logpolda4{
+  margin-bottom: 100px;
+}
+
+
+
+/*Footer*/
+#footer .row{
+  background-color: #C42326;
+  color: white;
+  padding: 20px;
+}
+.foot1 div{
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.logoFooter img{
+  width: 150px;
+  height: 172px;
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+.f1{
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+.f2{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  
+}
+.f2 a{
+  text-decoration: none;
+  color: grey;
+}
+.f2 a:hover{
+  text-decoration: none;
+  color: #B3B3B3;
+}
+.f3{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.f4{
+  margin-top: 0px;
+}
+.alam p{
+  padding-right: 50px;
+}
+.sosmed{
+  margin-top: 15px;
+  margin-left: -100px;
+}
+#list1{
+  margin-top: -10px;
+  max-width: 12px;
+}
+#list2{
+  margin-top: -10px;
+  margin-left: 100px;
+}
+@font-face{
+  font-family:defused;
+  src: url('defused.ttf');
+}
+
+
+/*Button Up*/
+#naik {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #FEEF02;
+  color: #DD1A1A;
+}
+
+#naik:hover {
+ opacity: 0.5;
+}
+
+/*More*/
+/*.judmore{
+  color: white;
+}*/
+/*.more{
+  background-color: #6F7070;
+  padding: 138px;
+}*/
+/*.pic1:hover .overlay iframe{
+  bottom: 0;
+  height: 100%;
+}
+.pic1{
+  display: block;
+}*/
+/*.overlay{
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}*/
+
+@media(max-width: 300px){
+  /*Background video*/
+  .backvid{
+    display: none;
+  }
+
+  /*Navbar*/
+  .navbar-brand img{
+    float: left;
+  }
+  .navbar-nav{
+    text-align: left;
+  }
+  .navbar .navbar-nav{
+  margin-left: 10px;
+  }
+  #btnlogin{
+    max-width: 55px;
+  }
+
+
+  .deskripsi h1{
+    margin-top: 100px;
+    font-size: 30px;
+  }
+  .deskripsi h2{
+    font-size: 20px;
+  }
+  #getbutton{
+    margin-bottom: 100px;
+  }
+  .deskripsi{
+    height: 350px;
+  }
+
+
+  #home{
+   margin-top: 449px;
+   width: 300px;
+    height: 150px;
+    margin-bottom: 50px;
+  }
+  #home img{
+  width: 300px;
+    height: 150px;
+  }
+
+
+  #visiakpol{
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  #visiMisi{
+    background-position: 0px 0px;
+  }
+  #visiakpol h1{
+    font-size: 25px;
+  }
+  #misi{
+    margin-top: 25px;
+  }
+  .vimi{
+    padding: 0px;
+  }
+  #visiakpol ol{
+    margin-left: -25px;
+  }
+  #judevent{
+    font-size: 25px;
+  }
+  #even{
+    margin-top: 10px;
+  }
+  #berita h1{
+    font-size: 25px;
+  }
+  #berita{
+    margin-top: 25px;
+  }
+  #news{
+  width: 300px;
+  height: 200px;
+  }
+
+
+  #judstruk{
+    font-size: 25px;
+    margin-left: -58px;
+  }
+  #judstr{
+    max-width: 300px;
+  }
+  .gubernur{
+     max-width: 320px;
+    max-height: 255px;
+  }
+  .gub1{
+    height: 2000px;
+    width: 100%;
+  }
+  .gub .card{
+    margin-left: -183px;
+    width: 300px;
+  }
+  .wagub .card{
+    margin-right: -117px;
+    width: 300px;
+    margin-top: 30px;
+  }
+  .showstruk{
+    margin-top: 1450px;
+    margin-left: -90px;
+  }
+  #struk img{
+    width: 270px;
+  }
+
+
+  .galer img{
+    width: 200px;
+    height: 100px;
+    margin-left: -10px;
+  }
+  .stream {
+    
+    margin: 10px;
+        margin-left: 10px;
+    display: block;
+    margin-left: 10px;
+  }
+  .stream iframe{
+    width: 200px;
+    height: 100px;
+  }
+  #instafeed-gallery-feed img{
+    margin-right: -10px;
+  }
+
+
+  .sosmed{
+    margin-left: 6px;
+  }
+  #list2{
+    display: none;
+  }
+  #list1{
+    display: none;
+  }
+  .logoFooter img{
+    margin-right: 45px;
+  }
+  .fa.fa-bars {
+    color: white;
+  }
+}
