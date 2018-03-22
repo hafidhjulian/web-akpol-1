@@ -4,7 +4,7 @@ body{
 
 
 /*navbar*/
-.navbar-nav {
+/* .navbar-nav {
   display: flex;
   flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
   padding-left: 0;
@@ -20,11 +20,11 @@ body{
     list-style: none;
     width: -moz-max-content;
     
-}
-.navbar-text {
+} */
+/* .navbar-text {
   padding-top: $nav-link-padding-y;
   padding-bottom: $nav-link-padding-y;
-}
+} */
 .nav-item .nav-link{
   color: white;
   width: 100%;
@@ -37,27 +37,20 @@ body{
   margin-top: 0px;
   background-color: #DD1A1A;
   background-size: 100%;
-  justify-content: right;
 }
 .nav-item #btnlogin{
   background-color: #FEEF02;
   color: #DD1A1A;
 }
-.navbar-toggler{
-  margin-left: 0vh;
-}
 .navbar-brand img{
   width: 65px;
   height: 76px;
 }
-.nav2 li{
-  float: right;
-}
-.navbar .navbar-nav{
-}
-#beranda{
-  display: flex;
+.bernav{
   justify-content: right;
+}
+.navbar-toggler{
+  float: left;
 }
 .nav-tabs{
   color: black;
@@ -546,13 +539,18 @@ body{
     float: left;
   }
   .navbar-nav{
-    text-align: left;
+    text-align: right;
   }
   .navbar .navbar-nav{
   margin-left: 10px;
   }
   #btnlogin{
     max-width: 55px;
+  }
+  .navbar-toggler{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
   }
 
 
@@ -701,9 +699,6 @@ body{
   }
 }
 @media(max-width:700px) {
-  #beranda {
-    margin-left: -264px;
-  }
   .deskripsi {
     z-index: 2;
     background: rgba(61,61,61,0.4);

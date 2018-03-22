@@ -38,14 +38,13 @@
 			<!-- Button Up -->
 			<a href="#head" class="tomup"><button id="naik"><strong><i class="fa fa-angle-up"></i></strong></button></a>
 			<!-- Navbar -->
-				<div class="container">
-					<nav class="navbar navbar-expand-md fixed-top nav-container">
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#beranda">
-								<i class="fa fa-bars"></i>
-							</button>
+					<nav class="navbar navbar-expand-md fixed-top">
 						<div class="container">
 						<a class="navbar-brand" href="#carhome"><img src="assets/images/logoakpol.png"></a>
-						<div class="collapse navbar-collapse" id="beranda">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ber">
+								<i class="fa fa-bars"></i>
+							</button>
+						<div class="collapse bernav navbar-collapse" id="ber">
 							<ul class="navbar-nav">
 								<li class="nav-item">
 									<a class="nav-link" href="#visiMisi">Visi & Misi</a>
@@ -92,61 +91,16 @@
 													</form>
 													
 												</div>
-												
-												<!-- <div class="modal-footer">
-													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-												</div> -->
 											</div>
 										</div>
 									</div>
 								</li>
-								<!-- <li class="nav-item">
-									<a class="nav-link btn-secondary" href="#" data-toggle="modal" data-target="#signup">Sign Up</a>
-									<div id="signup" class="modal fade modal-show">		
-										<div class="modal-dialog">
-											<div class="modal-content">
-
-												<div class="modal-header">
-													<h4 class="modal-title judmod">Login</h4>
-													<button type="button" class="close" data-dismiss="modal">&times;</button>
-												</div>
-
-												<div class="modal-body">
-													<form>
-														<div class="form-group">
-													      	<label for="email">Email:</label>
-													      	<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-													    </div>
-													    <div class="form-group">
-													      	<label for="pwd">Password:</label>
-													      	<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-													    </div>
-													    <div class="form-group">
-													      	<label for="pwd">Repeat Password:</label>
-													      	<input type="password" class="form-control" id="pwd" placeholder="Repeat password" name="pswd-repeat">
-													    </div>
-													    <div class="form-check">
-													      	<label class="form-check-label">
-													        <input class="form-check-input" type="checkbox" name="remember"> Remember me
-													      	</label>
-													    </div>
-													    <button type="submit" class="btn btn-primary btnlogin">Submit</button>
-													</form>
-													
-												</div>
-												
-												<div class="modal-footer">
-													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-												</div> 
-											</div>
-										</div>
-									</div>
-								</li>  -->
 							</ul>
 						</div>
 						</div>
 					</nav>
-			<!-- Foreground -->	
+			<!-- Foreground -->
+				<div class="container">	
 					<div class="deskripsi">
 						
 						<h1 id="akpol">AKADEMI KEPOLISIAN</h1>
@@ -714,7 +668,7 @@ function scrollFunction() {
 }
 </script>
 
-
+<!-- 
 <script>
 	$(document).ready(function(){       
 	 var scroll_start = 0;
@@ -731,7 +685,7 @@ function scrollFunction() {
     });
      }
  });
- </script>
+ </script> -->
 
 <script type="text/javascript">
   var userFeed = new Instafeed({
