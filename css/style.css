@@ -19,26 +19,25 @@ body{
 .navbar-nav {
     list-style: none;
     width: -moz-max-content;
+    
 }
 .navbar-text {
-  display: inline-block;
   padding-top: $nav-link-padding-y;
   padding-bottom: $nav-link-padding-y;
 }
 .nav-item .nav-link{
   color: white;
-  vertical-align: center;
-  margin-top: 0px;
-  margin-right: 20px;
   width: 100%;
+  float: right;
 }
 .nav-tabs .nav-justified{
   color: black;
 }
 .navbar{
-  float: right;
   margin-top: 0px;
   background-color: #DD1A1A;
+  background-size: 100%;
+  justify-content: right;
 }
 .nav-item #btnlogin{
   background-color: #FEEF02;
@@ -50,22 +49,21 @@ body{
 .navbar-brand img{
   width: 65px;
   height: 76px;
-  margin-top: 0px;
-  margin-left: 140px;
 }
 .nav2 li{
   float: right;
-  margin-bottom: 0px;
 }
 .navbar .navbar-nav{
-  margin-left: 330px;
+}
+#beranda{
+  display: flex;
+  justify-content: right;
 }
 .nav-tabs{
   color: black;
 }
 .modal-body .btnlogin {
     width: 100%;
-    margin-left: 0px;
 }
 /*.signup{
   border-color: #FFFFFF;
@@ -137,12 +135,18 @@ body{
 
 #home{
    margin-top: 50px;
-   width: 1580px;
+   width: 100%;
     height: 755px;
     margin-bottom: 50px;
 }
-#home img{
-  width: 1650px;
+#carimg img{
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  left: 0px;
+  right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
     height: 755px;
 }
 #carhome{
